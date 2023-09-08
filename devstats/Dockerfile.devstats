@@ -1,6 +1,6 @@
 # Dockerfile for devstats
 # Based on https://github.com/cncf/devstats/blob/master/INSTALL_UBUNTU17.md
-FROM golang:1.11.5
+FROM golang:1.21.0
 
 RUN apt-get update -y && \
 	apt-get install -y apt-transport-https \
